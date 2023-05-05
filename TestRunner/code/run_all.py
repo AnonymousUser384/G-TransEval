@@ -30,7 +30,7 @@ if __name__ == "__main__":
         for lang in langs:
             params = ["python","run.py", "--gen_template", "--gen_test", "--run_test"]
             params += ["--lang", lang]
-            params += ["--unit_test_file",f"../config/{level}.json"]
+            params += ["--unit_test_config",f"../config/{level}.json"]
             params += ["--test_file",f"../gold_answer/{level}/test.{suffix[lang]}"]
             params += ["--out_name", f"../results/gold/{level}-{lang}.json"]
             proc = subprocess.Popen(params)

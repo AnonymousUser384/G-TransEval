@@ -14,17 +14,17 @@ if __name__ == "__main__":
     parser.add_argument("--gen_template",action="store_true",required=False)
     parser.add_argument("--gen_test",action="store_true",required=False)
     parser.add_argument("--run_test",action="store_true",required=False)
-    parser.add_argument("--unit_test_file",required=False)
+    parser.add_argument("--unit_test_config",required=False)
     parser.add_argument("--lang",required=False)
     parser.add_argument("--test_file",required=False)
     parser.add_argument("--out_name",required=False)
     parser.add_argument("--delimiter",required=False)
     args = parser.parse_args()
 
-    unit_test_file = f"../../config/human_eval_x.json"
-    if args.unit_test_file:
-        unit_test_file = args.unit_test_file
-    with open(unit_test_file, "r", encoding="utf-8") as f:
+    unit_test_config = f"../../config/human_eval_x.json"
+    if args.unit_test_config:
+        unit_test_config = args.unit_test_config
+    with open(unit_test_config, "r", encoding="utf-8") as f:
         cfg_json = json.load(f)
     dataset_name = cfg_json["name"]
     questions = cfg_json["questions"]
@@ -80,17 +80,20 @@ if __name__ == "__main__":
             result[lang1]["results"] = {}
             for question_name in question_names:
                 ret = run_test_file(lang, dataset_name, question_name)
-                result[lang1]["results"][question_name] = ret.name
+                if ret.name == "AllPassed":
+                    result[lang1]["results"][question_name] = "Pass"
+                else:
+                    result[lang1]["results"][question_name] = "Fail"
             result[lang1]["total"] = 0
             result[lang1]["correct_num"] = 0
-            result[lang1]["compile_pass_num"] = 0
+            # result[lang1]["compile_pass_num"] = 0
             for value in result[lang1]["results"].values():
                 result[lang1]["total"] += 1
-                if value == "AllPassed":
+                if value == "Pass":
                     result[lang1]["correct_num"] += 1
-                    result[lang1]["compile_pass_num"] += 1
-                elif value == "CompilationPassed":
-                    result[lang1]["compile_pass_num"] += 1
+                    # result[lang1]["compile_pass_num"] += 1
+                # elif value == "CompilationPassed":
+                    # result[lang1]["compile_pass_num"] += 1
         st = "../results/result.json"
         if args.out_name:
             st = args.out_name
