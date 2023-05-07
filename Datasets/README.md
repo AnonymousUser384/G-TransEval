@@ -16,7 +16,7 @@ The test dataset of [TransCoder](https://github.com/facebookresearch/CodeGen/tre
 
 ### RQ1
 
-A fine-grained manual evaluation was conducted on 100 samples with unit tests from TransCoder-test dataset. The generated results of models are placed in [`experiments/rq1`](experiments/rq1) folder. The results show that the models are most likely to make mistakes on API, followed by Syntactic Structure. Supervised approaches are more likely to make mistaks on Symbol.
+A fine-grained manual evaluation was conducted on 100 samples with unit tests from TransCoder-test dataset. The generated results of models are placed in [`experiments/rq1`](experiments/rq1) folder. The results show that the models are most likely to make mistakes on API, followed by Syntactic Structure. Supervised approaches are more likely to make mistakes on Symbol.
 
 | Task:<br>Java→C++            | CodeBERT | CodeT5 | TransCoder | TransCoder-ST |
 |---------------------|----------|--------|------------|---------------|
