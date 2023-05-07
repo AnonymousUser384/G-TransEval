@@ -76,10 +76,43 @@ The official checkpoints of TransCoder-ST have problems with Python-to-C++ trans
 |               | Type 3          | 55.4  | 0    | 66.33 | 14.4 | 70.84 | 5.6  | 69.14 | 38.4 |        |      |       |      |
 |               | Type 4          | 14.57 | 0    | 27.32 | 0    | 24.36 | 0    | 29.51 | 0    |        |      |       |      |
 
+## Datasets and Experiments.
+Other datasets used in our paper are placed in the `Datasets` folder, including CodeXGLUE, TransCoder-test and XLCoST. The detailed results of experiments conducted on them in our paper are also included. For example, the complete results for taxonomy experiment: 
+
+| Full Dataset  | BLEU  | CodeBLEU | EM    | CA    |
+|---------------|-------|----------|-------|-------|
+| Naive Copy    | 78.39 | 79.96    | 1.05  | 29.55 |
+| CodeBERT      | 87.95 | 86.79    | 23.42 | 72.59 |
+| CodeT5        | 90.47 | 90.00    | 32.17 | 82.23 |
+| TransCoder    | 84.23 | 85.00    | 16.03 | 80.30 |
+| TransCoder-ST | 83.95 | 84.90    | 16.77 | 84.37 |
+
+| Type-1        | BLEU  | CodeBLEU | EM    | CA    |
+|---------------|-------|----------|-------|-------|
+| Naive Copy    | 90.47 | 89.68    | 2.60  | 52.43 |
+| CodeBERT      | 92.96 | 91.42    | 38.28 | 83.98 |
+| CodeT5        | 95.80 | 94.73    | 48.44 | 91.75 |
+| TransCoder    | 92.04 | 91.51    | 29.43 | 93.20 |
+| TransCoder-ST | 91.92 | 91.30    | 31.51 | 94.17 |
+
+| Type-2        | BLEU  | CodeBLEU | EM    | CA    |
+|---------------|-------|----------|-------|-------|
+| Naive Copy    | 76.22 | 76.97    | 0.00  | 15.29 |
+| CodeBERT      | 86.74 | 85.64    | 17.30 | 67.65 |
+| CodeT5        | 88.90 | 88.31    | 25.22 | 75.29 |
+| TransCoder    | 83.54 | 83.63    | 10.56 | 79.41 |
+| TransCoder-ST | 83.06 | 83.25    | 9.68  | 85.29 |
+
+| Type-3        | BLEU  | CodeBLEU | EM    | CA    |
+|---------------|-------|----------|-------|-------|
+| Naive Copy    | 60.92 | 67.80    | 0.00  | 4.4   |
+| CodeBERT      | 81.18 | 80.62    | 7.17  | 56.04 |
+| CodeT5        | 83.67 | 84.42    | 14.80 | 73.63 |
+| TransCoder    | 71.82 | 75.94    | 1.35  | 52.75 |
+| TransCoder-ST | 71.56 | 76.36    | 2.24  | 60.44 |
 
 ## Unit Test Runner
 The automatic unit test tool is placed in the `TestRunner` folder. See [detailed instruction](TestRunner/README.md) for usages. 
 
-## Other Datasets
-Other datasets used in our paper are placed in the `Datasets` folder, including CodeXGLUE, TransCoder-test and XLCoST.
+
 
