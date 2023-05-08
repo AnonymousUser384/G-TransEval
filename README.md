@@ -2,7 +2,7 @@
 This is the github page of paper "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark". The folder contents are as follows:
 - [BenchmarkResults](BenchmarkResults): Models' translation results on G-TransEval
 - [Datasets](Datasets): Other datasets used in our paper
-- [RQ&Experiments](RQ&Experiments): Emperical study resources and other experiments results
+- [RQ&Experiments](RQ&Experiments): Emperical study resources and experiments results
 - [G-TransEval](G-TransEval): Our released G-TransEval dataset
 - [TestRunner](TestRunner): An automatic unit test tool for G-TransEval
 
