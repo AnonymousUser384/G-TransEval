@@ -15,7 +15,7 @@ We develop a taxonomy that categorizes code translation tasks into four primary 
 - Library Level (Type 3): Migrate library to their equivalent in the target language
 - Algorithm Level (Type 4): Reimplement the program in the target language using a different algorithm
 
-More detailed information is at [./Taxonomy](taxonomy).
+More detailed information is at [./Taxonomy](Taxonomy).
 
 ## Benchmark
 G-TransEval is the first categorized test set designed to provide fine-grained and extensive evaluations of code translation models. It comprises a total of 400 code translation pairs between 5 language, i.e., Python, C++, Java, C#, and JavaScript. Each test sample are augmented with unit test cases.
