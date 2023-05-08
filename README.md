@@ -19,12 +19,16 @@ We develop a taxonomy that categorizes code translation tasks into four primary 
 G-TransEval is the first categorized test set designed to provide fine-grained and extensive evaluations of code translation models. It comprises a total of 400 code translation pairs between 5 language, i.e., Python, C++, Java, C#, and JavaScript. Each test sample are augmented with unit test cases.
 
 Type 1: 125 pairs. Located in ./G-TransEval/Type1 
+
 Type 2: 125 pairs. Located in ./G-TransEval/Type2
+
 Type 3: 125 pairs. Located in ./G-TransEval/Type3
+
 Type 4: 25 pairs. Located in ./G-TransEval/Type4
 
-Evaluation Results
+## Evaluation Results
 We evaluate CodeBERT, CodeT5, TransCoder and TransCoder-ST on G-TransEval.  
+
 ## Models checkpoint
 |Models          |Source                                        |
 |----------------|----------------------------------------------|
@@ -33,7 +37,7 @@ We evaluate CodeBERT, CodeT5, TransCoder and TransCoder-ST on G-TransEval.
 |TransCoder      |https://github.com/facebookresearch/CodeGen   |
 |TransCoder-ST   |https://github.com/facebookresearch/CodeGen   |
 
-Their translation results are located in [./G-TransEval/Results](/G-TransEval/Results/README.md). 
+Their translation results are located in [./G-TransEval/Results](G-TransEval/Results/README.md). 
 
 ## Unit Test Runner
 The automatic unit test tool is placed in the `TestRunner` folder. See [detailed instruction](TestRunner/README.md) for usages. 
