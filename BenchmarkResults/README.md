@@ -1,2 +1,2 @@
 # BenchmarkResults
-Here lists the results of different models on our benchmark.
+Here lists the translation results of different models on our benchmark.
