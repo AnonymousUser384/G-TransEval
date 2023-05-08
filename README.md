@@ -9,7 +9,7 @@ We develop a taxonomy that categorizes code translation tasks into four primary 
 - Algorithm Level (Type 4)
 
 Examples of each type are as follows:
-![figure](G-TransEval/Figure/examples.jpg)
+![figure](Figure/examples.jpg)
 
 ## Baselines
 |Models          |source                                        |
