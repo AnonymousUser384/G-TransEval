@@ -64,9 +64,7 @@ Here's complete results of experiment performed on catagorized TransCoder-test b
 | TransCoder-ST | 71.56 | 76.36    | 2.24  | 60.44 |
 
 ## Effect of Training Data Size
-The translations of CodeT5, TransCoder and TransCoder-ST are listed in the `translation_results` folder. Their results of unit tests are listed in the `unit_test_results` folder.
-
-Moreover, we explore the results of training CodeT5 with only 1000, 500, 200 and 100 samples. Here displays the full data of the experiment that explores the impact of size of training samples in our paper.
+We explore the results of training CodeT5 with only 1000, 500, 200 and 100 samples. Here displays the full data of the experiment that explores the impact of size of training samples in our paper.
 
 |            | Target               | Java→X |      |        |      |        |      |        |    | X→Java |      |        |      |        |      |        |    |
 |------------|----------------------|--------|------|--------|------|--------|------|--------|----|--------|------|--------|------|--------|------|--------|----|
