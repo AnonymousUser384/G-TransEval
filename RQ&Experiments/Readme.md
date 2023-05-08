@@ -1,5 +1,5 @@
-# Empirical Study
-Here lists the results of RQ1 and RQ2 in our paper.
+# RQ&Experiments
+Here lists the results of RQ1 and RQ2 in our paper and other experiment results.
 
 ### RQ1
 
@@ -27,7 +27,7 @@ The BLEU and EM scores of CodeT5 on exisiting benchmarks are displayed here. We 
 | XLCoST-m         | Java→C++    | 93.48 | 51.1  |
 |                  | C++→ Java   | 93.29 | 51.2  |
 
-### Taxonomy Validation
+### Taxonomy Validation with TransCoder-test-categorized
 
 Here's complete results of experiment performed on catagorized TransCoder-test benchmark.
 
@@ -63,7 +63,7 @@ Here's complete results of experiment performed on catagorized TransCoder-test b
 | TransCoder    | 71.82 | 75.94    | 1.35  | 52.75 |
 | TransCoder-ST | 71.56 | 76.36    | 2.24  | 60.44 |
 
-## Effect of Training Data Size
+## Effect of Training Data Size on CodeT5
 We explore the results of training CodeT5 with only 1000, 500, 200 and 100 samples. Here displays the full data of the experiment that explores the impact of size of training samples in our paper.
 
 |            | Target               | Java→X |      |        |      |        |      |        |    | X→Java |      |        |      |        |      |        |    |
