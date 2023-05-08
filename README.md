@@ -3,10 +3,10 @@ This artifact for our paper "On the Evaluation of Neural Code Translation: Taxon
 
 What's inside the artifact:
 
-1. A benchmark suite of 400 code translation pairs between 5 languages, i.e., Python, C++, Java, C#, and JavaScript (Section V). Located in ./G-TransEval
-2. Empirical study material (Section II and III). Located in ./EmpiricalStudy
-3. Taxonomy examples and experiment results (Section IV). Located in ./Taxonomy
-4. Our automatic unit test tool for G-TransEval. Located in ./TestRunner
+1. A benchmark suite of 400 code translation pairs between 5 languages, i.e., Python, C++, Java, C#, and JavaScript (Section V). Located in [./G-TransEval](G-TransEval)
+2. Empirical study material (Section II and III). Located in [./EmpiricalStudy](EmpiricalStudy)
+3. Taxonomy examples and experiment results (Section IV). Located in [./Taxonomy](Taxonomy)
+4. Our automatic unit test tool for G-TransEval. Located in [./TestRunner](TestRunner)
 
 ## Taxonomy
 We develop a taxonomy that categorizes code translation tasks into four primary types according to their complexity and knowledge dependence: 
