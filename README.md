@@ -1,7 +1,7 @@
 # G-TransEval
 This artifact for our paper "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark" includes benchmark suite, results, materials and source code of our automatic unit test tool. We hope this artifact can motivate and help future research on code translation. 
 
-What's inside the artifact:
+## What's inside the artifact:
 
 1. A benchmark suite of 400 code translation pairs between 5 languages, i.e., Python, C++, Java, C#, and JavaScript (Section V). Located in [./G-TransEval](G-TransEval)
 2. Empirical study material (Section II and III). Located in [./EmpiricalStudy](EmpiricalStudy)
