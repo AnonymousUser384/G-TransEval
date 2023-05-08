@@ -1,5 +1,5 @@
 # G-TransEval
-Official Implement for paper "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark".
+Official release of paper "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark".
 
 ## Taxonomy Example
 We develop a taxonomy that categorizes code translation tasks into four primary types according to their complexity and knowledge dependence: 
