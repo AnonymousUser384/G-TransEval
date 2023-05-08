@@ -29,7 +29,7 @@ The BLEU and EM scores of CodeT5 on exisiting benchmarks are displayed here. We 
 
 ### Taxonomy
 
-Here's complete results of experiment performed on catagorized TransCoder-test benchmark that we omitted in out paper.
+Here's complete results of experiment performed on catagorized TransCoder-test benchmark.
 
 | Full Dataset  | BLEU  | CodeBLEU | EM    | CA    |
 |---------------|-------|----------|-------|-------|
