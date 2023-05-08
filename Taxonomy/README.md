@@ -5,10 +5,11 @@ We develop a taxonomy that categorizes code translation tasks into four primary 
 - Library Level (Type 3): Migrate library to their equivalent in the target language
 - Algorithm Level (Type 4): Reimplement the program in the target language using a different algorithm
 
+## Taxonomy Examples
 The following image shows examples of four types of translation.
 ![figure](benchmark_examples/benchmark_examples.jpg)
 
-### Taxonomy experiment on TransCoder-test-categorized
+## Taxonomy experiment on TransCoder-test-categorized
 Here are complete results of experiment performed on catagorized TransCoder-test benchmark.
 
 | Full Dataset  | BLEU  | CodeBLEU | EM    | CA    |
