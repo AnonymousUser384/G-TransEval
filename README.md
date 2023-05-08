@@ -29,7 +29,7 @@ Type 4: &nbsp; 25 pairs. Located in [./G-TransEval/Type4](G-TransEval/Type4)
 ## Evaluation Results
 We evaluate CodeBERT, CodeT5, TransCoder and TransCoder-ST on G-TransEval.  
 
-## Models checkpoint
+### Models checkpoint
 |Models          |Source                                        |
 |----------------|----------------------------------------------|
 |CodeBERT        |https://huggingface.co/microsoft/codebert-base|
