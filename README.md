@@ -1,5 +1,5 @@
 # G-TransEval
-Official Implement for paper "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark". The related files are placed in different folders.
+Official Implement for paper "On the Evaluation of Neural Code Translation: Taxonomy and Benchmark".
 
 ## Benchmark Data
 The test files of C++, Java, C#, JavaScript and Python are placed in the `G-TransEval` folder, each of while contains 400 samples.
