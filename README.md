@@ -44,7 +44,7 @@ We evaluate CodeBERT, CodeT5, TransCoder and TransCoder-ST on G-TransEval.
 Their translation results are located in [./G-TransEval/Results](G-TransEval/Results/README.md). 
 
 ## Unit Test Runner
-The automatic unit test tool is placed in the `TestRunner` folder. See [detailed instruction](TestRunner/README.md) for usages. 
+The automatic unit test tool is placed in [./TestRunner](TestRunner) folder. See [detailed instruction](TestRunner/README.md) for usages. 
 
 
 
