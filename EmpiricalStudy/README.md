@@ -3,7 +3,7 @@ Here lists RQ results and other datasets used in our paper.
 
 ### RQ1
 
-A fine-grained manual evaluation was conducted on 100 samples with unit tests from TransCoder-test dataset. The generated results of models are placed in [./rq1](./rq1) folder. The results show that the models are most likely to make mistakes on API, followed by Syntactic Structure. Supervised approaches are more likely to make mistakes on Symbol.
+A fine-grained manual evaluation was conducted on 100 samples with unit tests from TransCoder-test dataset. The generated results of models are placed in `./rq1`. The results show that the models are most likely to make mistakes on API, followed by Syntactic Structure. Supervised approaches are more likely to make mistakes on Symbol.
 
 | Task:<br>Java→C++            | CodeBERT | CodeT5 | TransCoder | TransCoder-ST |
 |---------------------|----------|--------|------------|---------------|
@@ -16,7 +16,7 @@ A fine-grained manual evaluation was conducted on 100 samples with unit tests fr
 
 ### RQ2
 
-The BLEU and EM scores of CodeT5 on exisiting benchmarks are displayed here. We found that current datasets contain too many simple and naive translation pairs, leading to very high BLEU and EM scores. The generated results of models are placed in [./rq2](./rq2) folder.
+The BLEU and EM scores of CodeT5 on exisiting benchmarks are displayed here. We found that current datasets contain too many simple and naive translation pairs, leading to very high BLEU and EM scores. The generated results of models are placed in `./rq2`.
 
 | Model:<br>CodeT5 | Task\Metric | BLEU  | EM    |
 |------------------|-------------|-------|-------|
