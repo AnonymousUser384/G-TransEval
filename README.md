@@ -28,7 +28,7 @@ Type 3: 125 pairs. Located in `./G-TransEval/Type3`
 
 Type 4: &nbsp; 25 pairs. Located in `./G-TransEval/Type4`
 
-More detailed information is at `./G-TransEval`
+More detailed information is at [./G-TransEval](G-TransEval/README.md)
 
 ## Evaluation Results
 We evaluate CodeBERT, CodeT5, TransCoder and TransCoder-ST on G-TransEval.  
